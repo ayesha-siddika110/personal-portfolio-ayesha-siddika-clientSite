@@ -1,14 +1,18 @@
 
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
+import cvpdf from '../../assets/cv.pdf'
+import '../../Pages/Home/About/About'
+import { useState } from 'react';
 
 const Navbar = () => {
+   
     const links =<>
-    <NavLink to="/">Home</NavLink> |
-    <Link>About</Link> |
-    <Link>Skills</Link> |
-    <Link>Projects</Link> |
-    <Link>Contact</Link>
+    <Link to="/"><a href='#'>Home</a></Link> |
+    <a href='#about'  >About</a> |
+    <a href='#skills' >Skills</a> |
+    <a href='#projects'>Projects</a> |
+    <a href='#contact' >Contact</a>
     
     </>
     return (
@@ -28,7 +32,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                <button className="bg-indigo-500 shadow-lg shadow-indigo-500/40 py-2 rounded-lg px-4">Resume</button>
+                <a href={cvpdf} target='_black'><button className="hover:bg-indigo-500 border border-indigo-600 shadow-lg shadow-indigo-500/40 py-2 rounded-lg px-4 ">Download CV</button></a>
             </div>
 
                 <div className="navbar-end drawer drawer-end lg:hidden">

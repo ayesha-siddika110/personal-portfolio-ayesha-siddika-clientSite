@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "1",
+    "projectName": "GRAND R.(Resturant Website)",
+    "Description": "Welcome to the GRAND R. project! This is a dynamic and responsive website for showcasing a restaurant's menu, services, and offerings to customers. It is designed to provide a seamless user experience and enhance customer engagement.",
+    "keyFeatures" : ["Responsive Design: Fully functional across all devices (mobile, tablet, and desktop).","Menu Display: Detailed and categorized menu items.","Contact Form: Easy-to-use contact form for inquiries or reservations","Dynamic Components: Interactive features built with React.","Fast Performance: Optimized for quick loading times."],
+    "pakagesUse": ["react","react-router-dom", "react-hook-form","tailwindcss","framer-motion","Daisy-UI"],
+    "serverLink": "",
+    "clientLink": "",
+    "projectimage": "https://i.ibb.co.com/pXKrhtY/3.png",
+    "livesiteLink": "https://resturant-menegment-website-110.netlify.app/"
+  },
+  {
+    "_id": "2",
+    "projectName": "Sports Equipment LTD.",
+    "Description": "Welcome to Sports Equipment Hub, your one-stop destination for top-quality sports gear! Our website is designed to provide athletes, enthusiasts, and sports lovers with the best equipment to fuel their passion and enhance their performance.",
+    "keyFeatures" : ["user can sponsor his/her product","If user login he/she gets extra benifit(add equipment, menage his product criteria)","caregory data loading","Dynamic Components: Interactive features built with React.","Fast Performance: Optimized for quick loading times.","user friendly scrolling to uor website"],
+    "pakagesUse": ["Frontend: React, TailwindCSS","Backend: Firebase Authentication , Deployment: Client site(Hosted on Netlify) and server site (hosted in vercel), Express JS", "APIs: Integrated with Google Maps API for location services."],
+    "serverLink": "",
+    "clientLink": "",
+    "projectimage": "https://i.ibb.co.com/bL4Cgf3/4.png",
+    "livesiteLink": "https://sports-equipments-110.netlify.app/"
+  },
+  {
+    "_id": "3",
+    "projectName": "Career Counseling Platform",
+    "Description": "An interactive platform connecting career advisors with individuals seeking guidance, offering personalized recommendations and resources.",
+    "keyFeatures": [
+      "User can create a personalized profile.",
+      "Advisors can schedule sessions with clients.",
+      "Dynamic dashboard for tracking career goals.",
+      "Interactive quizzes for skill assessment.",
+      "Secure login with Firebase Authentication.",
+      "Responsive design optimized for all devices."
+    ],
+    "packagesUse": [
+      "Frontend: React, TailwindCSS, Chart.js for data visualization",
+      "Backend: Express.js, MongoDB, Firebase Authentication",
+      "Deployment: Client site hosted on Netlify, Server site on Vercel",
+      "APIs: Integrated with LinkedIn API for professional data sync",
+      "Other Tools: Google Maps API for nearby career workshops"
+    ],
+    "serverLink": "",
+    "clientLink": "",
+    "projectimage": "https://i.ibb.co.com/nMKNXKC/5.png",
+    "livesiteLink": "https://career-counseling-ayesha-110.netlify.app/"
+  }
+]
