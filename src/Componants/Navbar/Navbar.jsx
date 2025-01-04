@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css'
 
@@ -12,7 +12,7 @@ const Navbar = () => {
     
     </>
     return (
-        <div className='shadowBottom'  >
+        <div className='shadowBottom bg-[#09062e] text-white'  >
 
             <div className="navbar flex justify-between w-[90%] m-auto h-[70px]">
 
