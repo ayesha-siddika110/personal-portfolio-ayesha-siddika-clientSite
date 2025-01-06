@@ -7,7 +7,7 @@ const ProjectsCard = ({ item }) => {
     return (
         <>
          <div className='p-6 border border-indigo-600 cursor-pointer'>
-            <img className='h-[300px] w-full object-cover' src={projectimage} alt="" />
+            <img className='lg:h-[300px] w-full object-contain' src={projectimage} alt="" />
             <p className='text-center pt-4 text-lg font-semibold'>{projectName}</p>
             <div className='flex justify-center items-center mt-4'>
                 <Link to={`/viewDetails/${_id}`}>

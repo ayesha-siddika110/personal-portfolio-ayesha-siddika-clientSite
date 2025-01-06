@@ -10,17 +10,20 @@ const Contact = () => {
       e.preventDefault();
   
       emailjs
-        .sendForm('service_wjz4z3l', 'template_4kzh49q', form.current, {
-          publicKey: 'W4OClOYxDKmdF2YXF',
-        })
-        .then(
-          () => {
-            console.log('SUCCESS!');
-          },
-          (error) => {
-            // console.log('FAILED...', error.text);
-          },
-        );
+      .sendForm(
+        'service_tctsase',  // Service ID
+        'template_4kzh49q', // Template ID
+        form.current,
+        'W4OClOYxDKmdF2YXF'   // Public Key
+      )
+      .then(
+        (result) => {
+          console.log('SUCCESS!', result.text);
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        }
+      );
     };
     return (
         <div id='contact'>
@@ -28,7 +31,7 @@ const Contact = () => {
             <div className='md:flex w-[80%] m-auto py-16'>
                 <div className='md:w-[50%] lg:w-[50%] w-[90%] m-auto space-y-5'>
                     <div>
-                    <p className='text-4xl uppercase font-semibold'>Ayesha S</p>
+                    <p className='text-4xl uppercase font-semibold'>Ayesha S.</p>
                     <p className='pt-2 text-lg text-gray-400'>Professional Web Developer</p>
                     <p className='text-gray-400'>Location : Dinajpur, Bangladesh</p>
                     </div>

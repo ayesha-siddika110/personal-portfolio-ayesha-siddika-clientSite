@@ -39,15 +39,18 @@ const ViewDetails = () => {
                                     keyFeatures?.map((item, index) => <li key={index}>{`${item}`}</li>)
                                 }
                             </ul>
-                        </div>
-                        <div className="divider lg:divider-horizontal divider-neutral md:flex hidden"></div>
-                        <div>
                             <p className='text-xl font-semibold'>Pakages Use :</p>
                             <ul className='list-disc pl-8 text-gray-300'>
                                 {
                                     pakagesUse?.map((item, index) => <li key={index}>{`${item}`}</li>)
                                 }
                             </ul>
+                        </div>
+                        <div className="divider lg:divider-horizontal divider-neutral md:flex hidden"></div>
+                        <div className='font-semibold pt-8'>
+                            <p>Github Server Site : <a href={serverLink} className='underline' target='_black'>Click Here</a></p>
+                            <p>Github Client Site : <a href={clientLink} className='underline' target='_black'>Click Here</a></p>
+                            
                         </div>
                     </div>
 

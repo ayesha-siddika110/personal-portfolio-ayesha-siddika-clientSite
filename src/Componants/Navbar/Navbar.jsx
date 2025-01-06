@@ -22,7 +22,7 @@ const Navbar = () => {
 
 
                 <div className='navbar-start'>
-                    logo
+                <p className='text-2xl uppercase font-semibold'>Ayesha S.</p>
                 </div>
 
                 <div className="navbar-center hidden lg:flex ">

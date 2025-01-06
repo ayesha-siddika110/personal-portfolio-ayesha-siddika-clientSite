@@ -8,11 +8,11 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <div className='w-[80%] m-auto md:flex items-center justify-center py-44'>
-            <div className='md:w-[70%] space-y-4'>
+        <div className='w-[80%] m-auto md:flex items-center justify-center md:py-32 pt-10'>
+            <div className='md:w-[70%] w-[100%] space-y-2'>
                 <p className='text-indigo-400 text-xl font-semibold pt-2'>Hi ! I Am</p>
-                <p className='text-6xl font-semibold pb-3'>Ayesha Siddika</p>
-                <p className='text-3xl font-semibold text-gray-300 text-opacity-50'>
+                <p className='text-6xl font-semibold pb-1'>Ayesha Siddika</p>
+                <p className='md:text-3xl text-xl font-semibold text-gray-300 text-opacity-50 leading-[50px] md:leading-normal'>
                     <TypeAnimation
                         sequence={[
 
@@ -32,7 +32,7 @@ const Hero = () => {
                     />
 
                 </p>
-                <p className='w-[80%] text-gray-300'>&quot;I design and develop modern web solutions using the MERN stack. From interactive front-end interfaces with React to robust back-end services with Node.js, I deliver complete, end-to-end solutions that are user-friendly, fast, and efficient.&quot;</p>
+                <p className='md:w-[80%] text-gray-300 text-justify'>&quot;I design and develop modern web solutions using the MERN stack. From interactive front-end interfaces with React to robust back-end services with Node.js, I deliver complete, end-to-end solutions that are user-friendly, fast, and efficient.&quot;</p>
                 <div className='lg:flex md:flex  gap-10 pt-6'>
                     <a href={cvpdf} target='_black'><button className="hover:bg-indigo-500 border border-indigo-600 shadow-lg shadow-indigo-500/40 py-2 rounded-lg px-4 ">Download CV</button></a>
 
@@ -54,7 +54,7 @@ const Hero = () => {
 
             </div>
             <div className='pt-10 md:pt-0'>
-                <img src={profileimg} className='w-[350px] h-[350px] object-cover rounded-full' alt="" />
+                <img src={profileimg} className='md:w-[350px] md:h-[350px] h-[200px] w-[200px] object-cover rounded-full' alt="" />
             </div>
 
         </div>

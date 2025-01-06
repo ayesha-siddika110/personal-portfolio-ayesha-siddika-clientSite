@@ -15,7 +15,7 @@ const Skills = () => {
     return (
         <div id="skills">
             <p className='text-center text-4xl text-indigo-300 mt-6'>| Skills |</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:w-[80%] w-[80%] m-auto gap-8 mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 lg:w-[80%] w-[80%] m-auto gap-8 mt-10">
 
             <CardSkill image={JavaScriptimg} heading={`JavaScript (ES6)`} subheading={'Modern Web Interactivityd'}></CardSkill>
             <CardSkill image={reactimg} heading={`React JS`} subheading={`Build Interactive User Interfaces`}></CardSkill>
