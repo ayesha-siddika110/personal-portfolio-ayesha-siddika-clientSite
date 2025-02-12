@@ -1,7 +1,7 @@
 
 import { Link} from 'react-router-dom';
 import './Navbar.css'
-import cvpdf from '../../assets/cv.pdf'
+import cvpdf from '../../assets/CV_For_Front_End_Developer_Ayesha_Siddika (3).pdf'
 import '../../Pages/Home/About/About'
 // import { useState } from 'react';
 
@@ -32,7 +32,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                <a href={cvpdf} target='_black'><button className="hover:bg-indigo-500 border border-indigo-600 shadow-lg shadow-indigo-500/40 py-2 rounded-lg px-4 ">Download CV</button></a>
+                <a href={cvpdf} target='_blank' rel="noopener noreferrer"><div className="hover:bg-indigo-500 hover:-translate-y-1 border border-indigo-600 shadow-lg shadow-indigo-500/40 py-2 rounded-lg px-4 cursor-pointer">Download CV</div></a>
             </div>
 
                 <div className="navbar-end drawer drawer-end lg:hidden">

@@ -5,7 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 const ViewDetails = () => {
     const data = useLoaderData()
     console.log(data);
-    const { Description, keyFeatures, clientLink, livesiteLink, pakagesUse, projectName, projectimage, serverLink } = data || {}
+    const { Description, keyFeatures, clientLink, livesiteLink, packagesUse, projectName, projectimage, serverLink } = data || {}
 
     return (
         <div className='bg-[#09062e] text-white min-h-screen mt-[70px]'>
@@ -32,17 +32,17 @@ const ViewDetails = () => {
 
                     <div className=' lg:flex'>
                         {/* key features */}
-                        <div>
+                        <div className='md:w-[50%]'>
                             <p className='text-xl font-semibold'>Key Features :</p>
                             <ul className='list-disc pl-8 text-gray-300'>
                                 {
                                     keyFeatures?.map((item, index) => <li key={index}>{`${item}`}</li>)
                                 }
                             </ul>
-                            <p className='text-xl font-semibold'>Pakages Use :</p>
+                            <p className='text-xl font-semibold pt-5 pb-2'>Technology Use :</p>
                             <ul className='list-disc pl-8 text-gray-300'>
                                 {
-                                    pakagesUse?.map((item, index) => <li key={index}>{`${item}`}</li>)
+                                    packagesUse?.map((item, index) => <li key={index}>{`${item}`}</li>)
                                 }
                             </ul>
                         </div>

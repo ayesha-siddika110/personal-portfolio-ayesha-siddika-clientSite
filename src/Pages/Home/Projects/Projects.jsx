@@ -19,7 +19,7 @@ const Projects = () => {
         <div id='projects'>
             <p className='text-center text-4xl text-indigo-300 mt-20 mb-8'>| Projects |</p>
             {/* <ProjectsCard image={}></ProjectsCard> */}
-            <div className='grid md:grid-cols-2 grid-cols-1 gap-8 w-[80%] m-auto mt-10'>
+            <div className='grid md:grid-cols-2 grid-cols-1 gap-10 w-[90%] m-auto mt-10'>
                 {
                     data?.map((item,index)=><ProjectsCard key={index} item={item}></ProjectsCard>)
                 }
