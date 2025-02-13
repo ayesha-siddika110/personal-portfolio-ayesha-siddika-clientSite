@@ -1,5 +1,5 @@
 
-import { motion } from "framer-motion";
+
 import workerimg from '../../../assets/aaa.png'
 const About = () => {
     return (

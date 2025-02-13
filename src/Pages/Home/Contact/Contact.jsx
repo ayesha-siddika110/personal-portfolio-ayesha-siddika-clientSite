@@ -33,12 +33,13 @@ const Contact = () => {
   return (
     <div id='contact'>
       <p className='text-center text-4xl text-indigo-300 mt-20 mb-8'>| Contact Me |</p>
-      <div className='md:flex w-[80%] m-auto py-16'>
+      <div className='md:flex w-[90%] m-auto py-16'>
         <div className='md:w-[50%] lg:w-[50%] w-[90%] m-auto space-y-5' data-aos="fade-right">
           <div>
             <p className='text-4xl uppercase font-semibold'>Ayesha S.</p>
             <p className='pt-2 text-lg text-gray-400'>Professional Web Developer</p>
-            <p className='text-gray-400'>Location : Dinajpur, Bangladesh</p>
+            <p className='text-gray-400'>Location : Dinajpur Sadar, Bangladesh</p>
+            <p className='text-gray-400'>Email : ayeshasiddika777697@gmail.com</p>
           </div>
           <div className='flex gap-7 text-white '>
             <a href="https://www.facebook.com/ayesha.siddika.982225" className='w-10 cursor-pointer hover:-translate-y-1 h-10 text-center flex items-center justify-center rounded-full border text-2xl border-indigo-600 shadow-md shadow-indigo-700' target='_blank'><div className='cursor-pointer'><FaFacebookF /></div></a>
